@@ -6,6 +6,7 @@ The project is about Louise who wants to start a crowdfunding campaign to fund h
 
 #Analysis:
 The outcome of a particular project in a particular country is categorised as "Successful", "Failed", "Canceled" and "Live". It is further divided into parent category and subcategory. Based on the data, we figure out certain trends i.e. ideal goal amount, time to launch campaign, final outcomes and help Louise to be successful. Out of all categories, we see theatre (plays) had maximum successful outcomes.
+![image](https://user-images.githubusercontent.com/86980240/131529104-d78676db-f7bd-4ae8-9ada-583a68e4895a.png)
 
 #Challenges:
 In the dataset, launch dates and end dates were not clearly mentioned in a date format. It basically looks like random digits. So, it was difficult to determine dates. We had to use a formula for Unix Time stamp converter to extract exact dates and change date settings in Home tab.
@@ -14,6 +15,8 @@ In the dataset, launch dates and end dates were not clearly mentioned in a date 
 As we have analysed that Theater category had most number of projects and successful outcomes, we have further analysed few factors in theater outcomes by launch dates and outcomes by goals.
 Theather outcomes by launch dates:
 Factor 1 : Throughout the years, first half of the years had a gradual increase in the number of successful projects until May where we see a spike and month of June had maximum successful project campaigns with few cancelled. In the second half, we see the number of successful campaigns decreasing rapidly while number of failed projects fluctuating slightly.
+![image](https://user-images.githubusercontent.com/86980240/131529215-ad8ebcfa-3319-461b-8217-1d71270ab1e1.png)
+
 Factor 2 : From March to May, there were no canceled projects even though we see a steady increase in the number of successful and also failed projects.
 Theater outcomes by goals: 
 Even though, theater is most successful category, we see a trend in goal outcomes. With goal amount of lesss than $1000, we see highest percentage of successful projects. As the amount increases by $5000, we see that percentage starts to dip and failed percentage starts to increase until $35000 and upto $45000. With the goal amount of $45000 and above failed significantly.
