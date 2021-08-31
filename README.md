@@ -1,16 +1,16 @@
 # Kickstarter_Analysis
 #Performing analysis on kickstarter data to analyse trends
 
-#Overview of Project
+#Overview of Project:
 The project is about Louise who wants to start a crowdfunding campaign to fund her play "Fever" with an estimate of over $10,000. With the help of multiple data organised and analysed, it would help Louise to understand specific factors and trends to make her campaign successful. The dataset contains different plays with different genres or subcategories, throughout different countries. It also states the the goal amount for each play and an actual amount pledged and whether it was successful or failed or canceled.
 
-#Analysis
+#Analysis:
 The outcome of a particular project in a particular country is categorised as "Successful", "Failed", "Canceled" and "Live". It is further divided into parent category and subcategory. Based on the data, we figure out certain trends i.e. ideal goal amount, time to launch campaign, final outcomes and help Louise to be successful. Out of all categories, we see theatre (plays) had maximum successful outcomes.
 
-#Challenges
+#Challenges:
 In the dataset, launch dates and end dates were not clearly mentioned in a date format. It basically looks like random digits. So, it was difficult to determine dates. We had to use a formula for Unix Time stamp converter to extract exact dates and change date settings in Home tab.
 
-#Conclusions and findings
+#Conclusions and findings:
 As we have analysed that Theater category had most number of projects and successful outcomes, we have further analysed few factors in theater outcomes by launch dates and outcomes by goals.
 Theather outcomes by launch dates:
 Factor 1 : Throughout the years, first half of the years had a gradual increase in the number of successful projects until May where we see a spike and month of June had maximum successful project campaigns with few cancelled. In the second half, we see the number of successful campaigns decreasing rapidly while number of failed projects fluctuating slightly.
