@@ -15,7 +15,6 @@ In the dataset, launch dates and end dates were not clearly mentioned in a date 
 As we have analysed that Theater category had most number of projects and successful outcomes, we have further analysed few factors in theater outcomes by launch dates and outcomes by goals.
 Theather outcomes by launch dates:
 Factor 1 : Throughout the years, first half of the years had a gradual increase in the number of successful projects until May where we see a spike and month of June had maximum successful project campaigns with few cancelled. In the second half, we see the number of successful campaigns decreasing rapidly while number of failed projects fluctuating slightly.
-![image](https://user-images.githubusercontent.com/86980240/131529215-ad8ebcfa-3319-461b-8217-1d71270ab1e1.png)
 
 Factor 2 : From March to May, there were no canceled projects even though we see a steady increase in the number of successful and also failed projects.
 Theater outcomes by goals: 
