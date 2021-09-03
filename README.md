@@ -9,7 +9,7 @@ The outcome of a particular project in a particular country is categorised as "S
 ![image](https://user-images.githubusercontent.com/86980240/131529104-d78676db-f7bd-4ae8-9ada-583a68e4895a.png)
 
 #Challenges:
-In the dataset, launch dates and end dates were not clearly mentioned in a date format. It basically looks like random digits. So, it was difficult to determine dates. We had to use a formula for Unix Time stamp converter to extract exact dates and change date settings in Home tab.
+In the dataset, launch dates and end dates were not clearly mentioned in a date format. It basically looks like random digits. So, it was difficult to determine dates. We had to use a formula for Unix Time stamp converter to extract exact dates and change date settings in Home tab. We can use this formula : =(((J2/60)/60)/24)+DATE(1970,1,1)
 
 #Conclusions and findings:
 As we have analysed that Theater category had most number of projects and successful outcomes, we have further analysed few factors in theater outcomes by launch dates and outcomes by goals.
